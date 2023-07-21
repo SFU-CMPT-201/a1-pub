@@ -1,6 +1,6 @@
 # Assignment 1: Neovim practice
 
-In this assignment, you will practice Neovim, a text editor that we use for this course. There are three simple tasks that you need to do.
+In this assignment, you will practice Neovim, a text editor that we use for this course. There are two simple tasks that you need to do.
 
 ## Task 0
 
@@ -8,8 +8,6 @@ Before you get started, spend a few minutes and read [this article](http://www.v
 
 ## Task 1
 
-In this task, use `nvim` to write a `main()` function inside a file named `main.c`. The `main()` function should invoke every single function in the `lib.c` file and exit with a success exit code (`0`). To compile the code, you can enter `clang -o main main.c lib.c` which will generate an executable named `main`. There is an executable named `grader` that you can run and check your score (`./grader`). As the above linked article describes, your workflow is that "you are *always* in normal mode, and only enter insert mode for *short bursts* of typing text, after which you press <Esc> to go to normal mode."
+In this task, use `nvim` to follow a tutorial. First, make sure you are in the directory for this assignment (`a1`). Start `nvim`. You do not need to open any file. After that, enter `:Tutor`, which will start a built-in tutorial. Finish the tutorial and save the content (including your modifications) to a new file named `tutor` (if you finish the tutorial, you will know how to save the content that you are editing to a new file). Remember, as the above linked article describes, your workflow is that "you are *always* in normal mode, and only enter insert mode for *short bursts* of typing text, after which you press <Esc> to go to normal mode."
 
-After you're done, use `git` to push your `main.c` to your remote GitHub Classroom repo.
-
-## Task 2
+After you're done, use `git` to push your `tutor` file to your remote GitHub Classroom repo.
