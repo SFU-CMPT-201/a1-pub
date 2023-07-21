@@ -14,4 +14,4 @@ After you're done, use `git` to push your `tutor` file to your remote GitHub Cla
 
 ## Tips
 
-There are many good online webpages that you can use to quickly look up vi commands. We highly recommend to open one of those in your browser and keep it in the background throughout the semester, so you can easily find the commands that you want to use. For example, [this](https://vim.rtorr.com) is a good one to use. Since vi has many more useful commands that the tutorial does not mention, you can try out the commands that the above linked cheat sheet describes.
+There are many good online webpages that you can use to quickly look up vi commands. We highly recommend to open one of those in your browser and keep it in the background throughout the semester, so you can easily find the commands that you want to use. For example, [this](https://vim.rtorr.com) is a good one to use. Since vi has many more useful commands that the tutorial does not mention, you can try out the commands that the above linked cheat sheet describes. There is also an extensive list of resources available at [Vim Tips Wiki](https://vim.fandom.com/wiki/Vim_documentation).
