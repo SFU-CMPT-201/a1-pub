@@ -1,6 +1,12 @@
 # Assignment 1: Neovim practice
 
-In this assignment, you will practice Neovim, a text editor that we use for this course. There are two simple tasks that you need to do.
+From now on, we will assume that you know how to use the command-line interface. This means that we will not spell out the commands that you need to use. For example, if you need to be in a certain directory, we will just say that you need to be in that directory instead of telling you what to enter. You may still feel that you are not comfortable with the command-line interface. As mentioned previously, open a cheat sheet in your browser and keep looking up the commands throughout the semester. You will be very comfortable with the command-line interface by the end of the semester.
+
+Now, one of the most important tools for programming is an editor. There are so many editors out there and developers have their particular preferences. As you know already, this course uses Neovim, one of the modern implementations of vi. One reason for this choice is because of the course's goal of providing an immersive terminal-based Linux environment. Vi is available on any terminal-based (Unix-like) systems and if you know how to use it (along with the command-line interface), you will have no trouble using a terminal on a Unix-like system. Another reason for the choice of vi is that it provides a very different way of using an editor based on modes (which you have experienced already in the previous assignment). We believe that this is intellectually stimulating since it shows the possibility of designing software from an entirely different angle.
+
+Although you had a chance to use Neovim in the previous assignment, you probably still feel that you are not very good at using it at this point. It will take time to get really comfortable with Neovim. But you will have a lot of opportunities for practicing it in this course, including this assignment. We are confident that you will be an expert in vi/Neovim by the end of this semester.
+
+In this assignment, there are two simple tasks that you need to do.
 
 ## Task 0
 
