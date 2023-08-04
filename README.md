@@ -73,21 +73,33 @@ Wiki](https://vim.fandom.com/wiki/Vim_documentation).
 
 ## Other features
 
-We have configured Neovim with a few more features and you are encouraged to try these out and use
-them.
+Neovim is extremely customizable with a long list of built-in options. Not only that, it allows us
+to install third-party plugins. Using these, we have configured Neovim with a few more features and
+you are encouraged to try these out and use them.
 
-* `<Ctrl>-h` in normal mode opens a file explorer called
+* The status line at the bottom comes from a plugin called
+  [lightline](https://github.com/itchyny/lightline.vim).
+* `<Ctrl>-h` (the control key and h) in normal mode opens a file explorer called
   [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua). Once you open it, type `g?` opens a help
   page. But basically, you can use vim's key navigation (e.g., `j` and `k`) to navigate and
   `<Enter>` to open the file you select. `q` exits nvim-tree.
 * When you open a new file using nvim-tree, it opens the file in a new *buffer*, which is roughly
   similar to a new tab in a web browser. At the top of your terminal window/tab, you will see that
-  Neovim shows your current buffers. You can type `:bn` (*b*uffer *n*ext) to go to the next buffer,
-  `:bp` (*b*uffer *p*revious) or `:bN` to go to the previous buffer, and `:bd` (*b*uffer *d*elete)
-  to delete the current buffer.
+  Neovim shows your current buffers, which comes from a plugin called
+  [lightline-bufferline](https://github.com/mengelbrecht/lightline-bufferline).
+* You can type `:bn` (*b*uffer *n*ext) to go to the next buffer, `:bp` (*b*uffer *p*revious) or
+  `:bN` to go to the previous buffer, and `:bd` (*b*uffer *d*elete) to delete the current buffer.
 * Typing `:Files` in normal mode opens a file finder using
-  [fzf](https://github.com/junegunn/fzf.vim), which is a fuzzy finder we have mentioned before in
-  the previous assignment. Using this, you can quickly find a file that you want to open.
+  [fzf.vim](https://github.com/junegunn/fzf.vim), which is a plugin that integrates Neovim and fzf,
+  the fuzzy finder we have mentioned before in the previous assignment. Using this, you can quickly
+  find a file that you want to open. fzf.vim has many more features, so you might want to explore it
+  further.
+* We have installed a plugin called [vim-sneak](https://github.com/justinmk/vim-sneak), which allows
+  us to quickly jump to a different location on the screen. To use it, type `s` in normal mode
+  followed by two characters of the word that you want to jump to. It will immediately jump to the
+  first match and show other options highlighted with a different color and a shortcut key. Typing
+  one of the shortcut keys allows you to jump to a different option. `s` is for jumping forward and
+  `S` is for jumping backward.
 
 # Next steps
 
