@@ -3,10 +3,10 @@
 From now on, we will assume that you know how to use the command-line interface. This means that we
 will not spell out the commands that you need to use. For example, we will just state that you need
 to be in a certain directory instead of telling you what to enter, or that you need to clone a repo
-instead of telling you which `git` commands to use, etc. You may still feel that you are not
-comfortable with the command-line interface. As mentioned previously, open a cheat sheet in your
-browser and keep looking up the commands throughout the semester. You will be very comfortable with
-the command-line interface by the end of the semester.
+instead of telling you which `git` commands to use. You may still feel that you are not comfortable
+with the command-line interface. As mentioned previously, open a cheat sheet in your browser and
+keep looking up the commands throughout the semester. You will be very comfortable with the
+command-line interface by the end of the semester.
 
 Now, one of the most important tools for programming is an editor. There are many editors out there
 and developers have their particular preferences. As you know already, this course uses Neovim, one
@@ -71,6 +71,24 @@ tutorial does not mention, you can try out the commands that the above linked ch
 There is also an extensive list of resources available at [Vim Tips
 Wiki](https://vim.fandom.com/wiki/Vim_documentation).
 
+## Other features
+
+We have configured Neovim with a few more features and you are encouraged to try these out and use
+them.
+
+* `<Ctrl>-h` in normal mode opens a file explorer called
+  [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua). Once you open it, type `g?` opens a help
+  page. But basically, you can use vim's key navigation (e.g., `j` and `k`) to navigate and
+  `<Enter>` to open the file you select. `q` exits nvim-tree.
+* When you open a new file using nvim-tree, it opens the file in a new *buffer*, which is roughly
+  similar to a new tab in a web browser. At the top of your terminal window/tab, you will see that
+  Neovim shows your current buffers. You can type `:bn` (*b*uffer *n*ext) to go to the next buffer,
+  `:bp` (*b*uffer *p*revious) or `:bN` to go to the previous buffer, and `:bd` (*b*uffer *d*elete)
+  to delete the current buffer.
+* Typing `:Files` in normal mode opens a file finder using
+  [fzf](https://github.com/junegunn/fzf.vim), which is a fuzzy finder we have mentioned before in
+  the previous assignment. Using this, you can quickly find a file that you want to open.
+
 # Next steps
 
 You need to accept the invite for the next assignment (A2).
@@ -79,3 +97,10 @@ You need to accept the invite for the next assignment (A2).
 * Accept the invite for Assignment 2 (A2).
 * If you are not in `units/02-tools` directory, go to that directory.
 * Clone the assignment repo.
+
+For all future assignments, you *must* use `nvim`. To enforce this, we have configured our `nvim` so
+that, for a few file types that we care about (e.g., `.c`, `.h`, `.sh`, etc.), it occasionally takes
+a snapshot of what you are doing and saves the snapshot to a directory named `.history`. For all
+future assignments, you need to push this directory as part of your submission. We will check this
+directory, analyze the snapshots to make sure that you are using `nvim`, and use it as part of
+grading.
