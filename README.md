@@ -27,14 +27,14 @@ confident that you will be an expert in vi/Neovim by the end of this semester.
 
 In this assignment, there are three simple tasks that you need to do.
 
-## Task 0
+## Task 0: Reading an article
 
 Before you get started, spend a few minutes and read [this
 article](http://www.viemu.com/a-why-vi-vim.html). There are many articles that talk about using vi
 and I believe it is one of the better-written articles. Don't miss the first misconception about the
 modal editing as it describes the correct way to use vi.
 
-## Task 1
+## Task 1: Swapping `<Caps Lock>` and `<Esc>`
 
 We highly recommend you to swap your `<Caps Lock>` key with your `<Esc>` key. You need to use
 `<Esc>` heavily on vi, and swapping `<Caps Lock>` with `<Esc>` makes it easier. In fact, this was
@@ -48,7 +48,7 @@ Additional Layout Options --> Caps Lock behaviour, and choose the mapping. For a
 KDE, go to System Settings --> Input Devices --> Keyboard --> Advanced --> Caps Lock behavior, and
 choose the mapping.
 
-## Task 2
+## Task 2: Neovim tutorial
 
 In this task, use Neovim to follow a tutorial. First, make sure you are in the correct directory for
 this assignment (`a1`). Start `nvim`. You do not need to open any file. Once `nvim` starts, enter
