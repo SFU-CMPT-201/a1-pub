@@ -3,7 +3,7 @@
 From now on, we will assume that you know how to use the command-line interface. This means that we
 will not spell out the commands that you need to use. For example, we will just state that you need
 to be in a certain directory instead of telling you what to enter, or that you need to clone a repo
-instead of telling you which `git` commands to use. You may still feel that you are not comfortable
+instead of telling you which Git commands to use. You may still feel that you are not comfortable
 with the command-line interface. As mentioned previously, open a cheat sheet in your browser and
 keep looking up the commands throughout the semester. You will be very comfortable with the
 command-line interface by the end of the semester.
@@ -101,6 +101,21 @@ you are encouraged to try these out and use them.
   one of the shortcut keys allows you to jump to a different option. `s` is for jumping forward and
   `S` is for jumping backward.
 
+For our VM, we do not allow you to install any more plugins. We have actually configured our VM in a
+way that prevents you from installing other plugins. This is first for learning purposes but also
+because installing too many plugins slows down the performance of Neovim. Many Vim/Neovim users
+prefer installing a minimal number of plugins that they consider essential and use the native
+features of Vim/Neovim for the most part.
+
+# Important note
+
+For all future assignments, you *must* use `nvim`. To enforce this, we have configured our `nvim` so
+that, for a few file types that we care about (e.g., `.c`, `.h`, `.sh`, etc.), it occasionally takes
+a snapshot of the file you are editing and saves the snapshot to a directory named `.history`. For
+all future assignments, you need to push this directory as part of your submission. We will check
+this directory, analyze the snapshots to make sure that you are using `nvim`, and use the analysis
+results as part of grading.
+
 # Next steps
 
 You need to accept the invite for the next assignment (A2).
@@ -109,10 +124,3 @@ You need to accept the invite for the next assignment (A2).
 * Accept the invite for Assignment 2 (A2).
 * If you are not in `units/02-tools` directory, go to that directory.
 * Clone the assignment repo.
-
-For all future assignments, you *must* use `nvim`. To enforce this, we have configured our `nvim` so
-that, for a few file types that we care about (e.g., `.c`, `.h`, `.sh`, etc.), it occasionally takes
-a snapshot of what you are doing and saves the snapshot to a directory named `.history`. For all
-future assignments, you need to push this directory as part of your submission. We will check this
-directory, analyze the snapshots to make sure that you are using `nvim`, and use it as part of
-grading.
