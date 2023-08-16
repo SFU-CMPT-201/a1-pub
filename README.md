@@ -61,7 +61,7 @@ after which you press `<Esc>` to go to normal mode." So develop a habit of hitti
 
 After you're done, use `git` to push your `tutor` file to your remote GitHub Classroom repo.
 
-## Tips
+# Tips
 
 There are many good online webpages that you can use to quickly look up vi commands. We highly
 recommend you to open one of those in your browser and keep it in the background throughout the
@@ -71,7 +71,7 @@ tutorial does not mention, you can try out the commands that the above linked ch
 There is also an extensive list of resources available at [Vim Tips
 Wiki](https://vim.fandom.com/wiki/Vim_documentation).
 
-## Other features
+# Other features
 
 Neovim is extremely customizable with a long list of built-in options. Not only that, it allows us
 to install third-party plugins. Using these, we have configured Neovim with a few more features and
