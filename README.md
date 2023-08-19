@@ -50,16 +50,18 @@ choose the mapping.
 
 ## Task 2: Neovim tutorial
 
-In this task, use Neovim to follow a tutorial. First, make sure you are in the correct directory for
-this assignment (`a1`). Start `nvim`. You do not need to open any file. Once `nvim` starts, enter
-`:Tutor`, which will start the built-in tutorial. The tutorial will ask you to modify the content,
-and so after finishing the tutorial, save the content of the tutorial (including your modifications)
-to a new file named `tutor` (if you finish the tutorial, you will know how to save the content
-you're editing to a new file). Remember, as the above linked article describes, your workflow is
-that "you are *always* in normal mode, and only enter insert mode for *short bursts* of typing text,
-after which you press `<Esc>` to go to normal mode." So develop a habit of hitting the `<Esc>` key.
+In this task, use Neovim to follow a tutorial.
 
-After you're done, use `git` to push your `tutor` file to your remote GitHub Classroom repo.
+* First, make sure you are in the correct directory for this assignment (`a1`).
+* Start `nvim`. You do not need to open any file.
+* Once `nvim` starts, enter `:Tutor`, which will start the built-in tutorial.
+* The tutorial will ask you to modify the content, and so after finishing the tutorial, save the
+  content of the tutorial (including your modifications) to a new file named `tutor` (if you finish
+  the tutorial, you will know how to save the content you're editing to a new file). Remember, as
+  the above linked article describes, your workflow is that "you are *always* in normal mode, and
+  only enter insert mode for *short bursts* of typing text, after which you press `<Esc>` to go to
+  normal mode." So develop a habit of hitting the `<Esc>` key.
+* After you're done, use `git` to push your `tutor` file to your remote GitHub Classroom repo.
 
 # Tips
 
@@ -111,9 +113,9 @@ features of Vim/Neovim for the most part.
 
 For all future assignments, you *must* use `nvim`. To enforce this, we have configured our `nvim` so
 that, for a few file types that we care about (e.g., `.c`, `.h`, `.sh`, etc.), it occasionally takes
-a snapshot of the file you are editing and saves the snapshot to a directory named `.history`. For
-all future assignments, you need to push this directory as part of your submission. We will check
-this directory, analyze the snapshots to make sure that you are using `nvim`, and use the analysis
+a snapshot of the file you are editing and saves the snapshot to a directory named `.nvim`. For all
+future assignments, you need to push this directory as part of your submission. We will check this
+directory, analyze the snapshots to make sure that you are using `nvim`, and use the analysis
 results as part of grading.
 
 # Next steps
