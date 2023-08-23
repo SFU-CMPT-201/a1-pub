@@ -13,12 +13,12 @@ and developers have their particular preferences. As you know already, this cour
 of the modern implementations of vi. One reason for the choice of vi/Neovim is the course's goal of
 providing an immersive terminal-based Linux environment. Vi is available on pretty much all
 terminal-based, Unix-like systems and if you know how to use it, along with the command-line
-interface, you will have no trouble using any Unix-like system out there. Another reason for the
+interface, you will have no trouble using any Unix-like systems out there. Another reason for the
 choice of vi/Neovim is that it shows a unique editor design based on modes (which you have
 experienced already in the previous assignment). We believe that this is intellectually stimulating
 since it shows that it is possible to design software from a very different angle. In fact, the
 original creator of vi is Bill Joy, a legendary programmer who led the development of Berkeley Unix
-(BSD), which has many modern descendants including Apple's OSes like macOS and iOS.
+(BSD), which has many modern descendants including Apple's OSs like macOS and iOS.
 
 Although you had a chance to use Neovim in the previous assignment, you probably still feel that you
 are not very good at it yet. It will take time to get really comfortable with Neovim. But you will
