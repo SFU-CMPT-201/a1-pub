@@ -21,11 +21,11 @@ original creator of vi is Bill Joy, a legendary programmer who led the developme
 (BSD), which has many modern descendants including Apple's OSs like macOS and iOS.
 
 Although you had a chance to use Neovim in the previous assignment, you probably still feel that you
-are not very good at it yet. It will take time to get really comfortable with Neovim. But you will
+are not yet very good at it. It will take time to get really comfortable with Neovim. But you will
 have a lot of opportunities to practice it in this course, including this assignment. We are
 confident that you will be an expert in vi/Neovim by the end of this semester.
 
-In this assignment, there are three simple tasks that you need to do.
+In this assignment, there are four simple tasks that you need to do.
 
 ## Task 0: Reading an article
 
@@ -34,19 +34,33 @@ article](http://www.viemu.com/a-why-vi-vim.html). There are many articles that t
 and I believe it is one of the better-written articles. Don't miss the first misconception about the
 modal editing as it describes the correct way to use vi.
 
-## Task 1: Swapping `<Caps Lock>` and `<Esc>`
+## Task 1: Terminal size and color scheme
+
+This is something we mentioned earlier a couple of times but we want to mention it again here. Make
+sure you change your default terminal window width to more than 100 characters, e.g., 110. Also make
+sure you change the default height to something sufficiently long as well. Also, change the default
+color scheme of your terminal to "solarized dark" if possible. Most of the popular terminal
+emulators support it. "solarized dark" is easy on your eyes, which is important when you spend a lot
+of time on the terminal. If interested, read further at [the creator's
+website](https://ethanschoonover.com/solarized/). It will also match the color scheme of our Neovim
+configuration.
+
+## Task 2: Swapping `<Caps Lock>` and `<Esc>`
 
 We highly recommend you to swap your `<Caps Lock>` key with your `<Esc>` key. You need to use
 `<Esc>` heavily on vi, and swapping `<Caps Lock>` with `<Esc>` makes it easier. In fact, this was
 the original keyboard layout at the time of vi's development. You don't typically use `<Caps Lock>`
-anyways, so this won't affect your keyboard usage much. For Windows, install
-[PowerToys](https://github.com/microsoft/PowerToys) by Microsoft, go to the Keyboard Manager, and
-remap the keys. For MacOS, go to System Settings --> Keyboard --> Keyboard Shortcuts --> Modifier
-Keys, and change the mapping for `<Caps Lock>`. For a Linux distro using GNOME, install
-`gnome-tweaks` with your package manager (e.g., `apt`, `dnf`, etc.), go to Keyboard & Mouse -->
-Additional Layout Options --> Caps Lock behaviour, and choose the mapping. For a Linux distro using
-KDE, go to System Settings --> Input Devices --> Keyboard --> Advanced --> Caps Lock behavior, and
-choose the mapping.
+anyways, so this won't affect your keyboard usage much.
+
+* **Windows**: Install [PowerToys](https://github.com/microsoft/PowerToys) by Microsoft, go to the
+  Keyboard Manager, and remap the keys.
+* **MacOS**: Go to System Settings --> Keyboard --> Keyboard Shortcuts --> Modifier Keys, and change
+  the mapping for `<Caps Lock>`.
+* **Linux using GNOME**: Install `gnome-tweaks` with your package manager (e.g., `apt`, `dnf`,
+  etc.), go to Keyboard & Mouse --> Additional Layout Options --> Caps Lock behaviour, and choose
+  the mapping.
+* **Linux using KDE**: Go to System Settings --> Input Devices --> Keyboard --> Advanced --> Caps
+  Lock behavior, and choose the mapping.
 
 ## Task 2: Neovim tutorial
 
