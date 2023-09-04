@@ -91,7 +91,7 @@ Wiki](https://vim.fandom.com/wiki/Vim_documentation).
 
 Neovim is extremely customizable with a long list of built-in options. Not only that, it allows us
 to install third-party plugins. Using these, we have configured Neovim with a few more features and
-you are encouraged to try these out and use them.
+we highly encourage you to try these out and use them.
 
 * The status line at the bottom comes from a plugin called
   [lightline](https://github.com/itchyny/lightline.vim).
