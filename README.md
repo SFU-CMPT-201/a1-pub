@@ -1,4 +1,4 @@
-# Assignment 1: Neovim practice
+# Assignment 1: Neovim Practice
 
 From now on, we will assume that you know how to use the command-line interface. This means that we
 will not spell out the commands that you need to use. For example, we will just state that you need
@@ -27,14 +27,14 @@ confident that you will be an expert in vi/Neovim by the end of this semester.
 
 In this assignment, there are four simple tasks that you need to do.
 
-## Task 0: Reading an article
+## Task 0: Reading an Article
 
 Before you get started, spend a few minutes and read [this
 article](http://www.viemu.com/a-why-vi-vim.html). There are many articles that talk about using vi
 and I believe it is one of the better-written articles. Don't miss the first misconception about the
 modal editing as it describes the correct way to use vi.
 
-## Task 1: Terminal size and color scheme
+## Task 1: Terminal Size and Color Scheme
 
 This is something we mentioned earlier a couple of times but we want to mention it again here. Make
 sure you change your default terminal window width to more than 100 characters, e.g., 110. Also make
@@ -62,7 +62,7 @@ anyways, so this won't affect your keyboard usage much.
 * **Linux using KDE**: Go to System Settings --> Input Devices --> Keyboard --> Advanced --> Caps
   Lock behavior, and choose the mapping.
 
-## Task 2: Neovim tutorial
+## Task 2: Neovim Tutorial
 
 In this task, use Neovim to follow a tutorial.
 
@@ -87,7 +87,7 @@ tutorial does not mention, you can try out the commands that the above linked ch
 There is also an extensive list of resources available at [Vim Tips
 Wiki](https://vim.fandom.com/wiki/Vim_documentation).
 
-# Other features
+# Other Features
 
 Neovim is extremely customizable with a long list of built-in options. Not only that, it allows us
 to install third-party plugins. Using these, we have configured Neovim with a few more features and
@@ -123,7 +123,7 @@ because installing too many plugins slows down the performance of Neovim. Many V
 prefer installing a minimal number of plugins that they consider essential and use the native
 features of Vim/Neovim for the most part.
 
-# Important note
+# Important Note
 
 For all future assignments, you *must* use `nvim`. To enforce this, we have configured our `nvim` so
 that, for a few file types that we care about (e.g., `.c`, `.h`, `.sh`, etc.), it occasionally takes
@@ -132,7 +132,7 @@ future assignments, you need to push this directory as part of your submission. 
 directory, analyze the snapshots to make sure that you are using `nvim`, and use the analysis
 results as part of grading.
 
-# Next steps
+# Next Steps
 
 You need to accept the invite for the next assignment (A2).
 
