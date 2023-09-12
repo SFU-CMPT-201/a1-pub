@@ -2,11 +2,11 @@
 
 From now on, we will assume that you know how to use the command-line interface. This means that we
 will not spell out the commands that you need to use. For example, we will just state that you need
-to be in a certain directory instead of telling you what to enter, or that you need to clone a repo
-instead of telling you which Git commands to use. You may still feel that you are not comfortable
-with the command-line interface. As mentioned previously, open a cheat sheet in your browser and
-keep looking up the commands throughout the semester. You will be very comfortable with the
-command-line interface by the end of the semester.
+to be in a certain directory instead of telling you what to enter, that you need to clone a repo
+instead of telling you which Git commands to use, etc. You may still feel that you are not
+comfortable with the command-line interface. As mentioned previously, open a cheat sheet in your
+browser and keep looking up the commands throughout the semester. You will be very comfortable with
+the command-line interface by the end of the semester.
 
 Now, one of the most important tools for programming is an editor. There are many editors out there
 and developers have their particular preferences. As you know already, this course uses Neovim, one
@@ -39,11 +39,7 @@ modal editing as it describes the correct way to use vi.
 This is something we mentioned earlier a couple of times but we want to mention it again here. Make
 sure you change your default terminal window width to more than 100 characters, e.g., 110. Also make
 sure you change the default height to something sufficiently long as well. Also, change the default
-color scheme of your terminal to "solarized dark" if possible. Most of the popular terminal
-emulators support it. "solarized dark" is easy on your eyes, which is important when you spend a lot
-of time on the terminal. If interested, read further at [the creator's
-website](https://ethanschoonover.com/solarized/). It will also match the color scheme of our Neovim
-configuration.
+color scheme of your terminal to "solarized dark".
 
 ## Task 2: Swapping `<Caps Lock>` and `<Esc>`
 
@@ -117,9 +113,8 @@ we highly encourage you to try these out and use them.
   one of the shortcut keys allows you to jump to a different option. `s` is for jumping forward and
   `S` is for jumping backward.
 
-For our VM, we do not allow you to install any more plugins. We have actually configured our VM in a
-way that prevents you from installing other plugins. This is first for learning purposes but also
-because installing too many plugins slows down the performance of Neovim. Many Vim/Neovim users
+For our VM, we do not allow you to install any more plugins. This is first for learning purposes but
+also because installing too many plugins slows down the performance of Neovim. Many Vim/Neovim users
 prefer installing a minimal number of plugins that they consider essential and use the native
 features of Vim/Neovim for the most part.
 
@@ -130,7 +125,8 @@ that, for a few file types that we care about (e.g., `.c`, `.h`, `.sh`, etc.), i
 a snapshot of the file you are editing and saves the snapshot to a directory named `.nvim`. For all
 future assignments, you need to push this directory as part of your submission. We will check this
 directory, analyze the snapshots to make sure that you are using `nvim`, and use the analysis
-results as part of grading.
+results as part of grading. In addition, we will ask you to use the `record` tool that you used
+already in A0, and analyze the recordings as part of grading.
 
 # Next Steps
 
