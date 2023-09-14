@@ -101,11 +101,6 @@ we highly encourage you to try these out and use them.
   [lightline-bufferline](https://github.com/mengelbrecht/lightline-bufferline).
 * You can type `:bn` (*b*uffer *n*ext) to go to the next buffer, `:bp` (*b*uffer *p*revious) or
   `:bN` to go to the previous buffer, and `:bd` (*b*uffer *d*elete) to delete the current buffer.
-* Typing `:Files` in normal mode opens a file finder using
-  [fzf.vim](https://github.com/junegunn/fzf.vim), which is a plugin that integrates Neovim and fzf,
-  the fuzzy finder we have mentioned before in the previous assignment. Using this, you can quickly
-  find a file that you want to open. fzf.vim has many more features, so you might want to explore it
-  further.
 * We have installed a plugin called [vim-sneak](https://github.com/justinmk/vim-sneak), which allows
   us to quickly jump to a different location on the screen. To use it, type `s` in normal mode
   followed by two characters of the word that you want to jump to. It will immediately jump to the
