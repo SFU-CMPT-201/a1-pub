@@ -65,7 +65,7 @@ before you start. In fact, for ***every assignment***, it is important to read t
 document first, before you start doing anything.
 
 * First, make sure you are in the correct directory for this assignment (`a1`).
-* Also make sure that you record your entire work session by entering `record`.
+* Also make sure that you record your entire work session(s) by entering `record`.
     * Again, when `record` is running, the prompt will display `[recording]`. Make sure you see it
       before proceeding. `record` records everything you do in your terminal and saves it to the
       files in a directory named `.record`.
