@@ -60,21 +60,32 @@ anyways, so this won't affect your keyboard usage much.
 
 ## Task 2: Neovim Tutorial
 
-In this task, use Neovim to follow a tutorial.
+In this task, use Neovim to follow a tutorial. It is important to read the entire instructions below
+before you start. In fact, for ***every assignment***, it is important to read the entire assignment
+document first, before you start doing anything.
 
 * First, make sure you are in the correct directory for this assignment (`a1`).
+* Also make sure that you record your entire work session by entering `record`.
+    * Again, when `record` is running, the prompt will display `[recording]`. Make sure you see it
+      before proceeding. `record` records everything you do in your terminal and saves it to the
+      files in a directory named `.record`.
+    * Remember to enter `exit` when you want to stop.
 * Start `nvim`. You do not need to open any file.
 * Once `nvim` starts, enter `:Tutor`, which will start the built-in tutorial.
 * The tutorial will ask you to modify the content, and so after finishing the tutorial, save the
   content of the tutorial (including your modifications) to a new file named `tutor` (if you finish
-  the tutorial, you will know how to save the content you're editing to a new file). Remember, as
-  the above linked article describes, your workflow is that "you are *always* in normal mode, and
-  only enter insert mode for *short bursts* of typing text, after which you press `<Esc>` to go to
-  normal mode." So develop a habit of hitting the `<Esc>` key.
+  the tutorial, you will know how to save the content you're editing to a new file).
+* If the tutorial tells you to exit without saving, it is okay to do it so just do it.
+* For Lesson 7.2, you won't be able to save anything, which is fine.
+* The tutorial will tell you that "the ✗ sign at the left will change to ✓." But this is not perfect
+  and sometimes it may not change. This is also fine.
+* Remember, as the above linked article describes, your workflow is that "you are *always* in normal
+  mode, and only enter insert mode for *short bursts* of typing text, after which you press `<Esc>`
+  to go to normal mode." So develop a habit of hitting the `<Esc>` key.
 * After you're done, use `git` to push your `tutor` file to your remote GitHub Classroom repo.
 * One thing to emphasize. The point of using Vim/Neovim is to ***not*** use arrow keys to move
-  around. It defeats the whole purpose of using the tool. So after this assignment, if I catch
-  someone who uses the arrow keys to move around, I'll be very unhappy and call out.
+  around. It defeats the whole purpose of using it. So after this assignment, if I catch someone who
+  uses the arrow keys to move around, I'll be very unhappy and call out.
 
 # Tips
 
