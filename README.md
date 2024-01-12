@@ -83,7 +83,7 @@ document first, before you start doing anything.
   mode, and only enter insert mode for *short bursts* of typing text, after which you press `<Esc>`
   to go to normal mode." So develop a habit of hitting the `<Esc>` key.
 * After you're done, use `git` to push your `tutor` file to your remote GitHub Classroom repo.
-* One thing to emphasize. The point of using Vim/Neovim is to ***not*** use arrow keys to move
+* One thing to emphasize: the point of using Vim/Neovim is to ***not*** use arrow keys to move
   around. It defeats the whole purpose of using it. So after this assignment, if I catch someone who
   uses the arrow keys to move around, I'll be very unhappy and call out.
 
