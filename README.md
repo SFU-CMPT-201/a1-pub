@@ -27,6 +27,12 @@ confident that you will be an expert in vi/Neovim by the end of this semester.
 
 In this assignment, there are four simple tasks that you need to do.
 
+## Important Note
+
+You ***should not*** copy and paste the code or command examples. You have to type them yourself
+and understand the meanings. If you copy and paste, you ***will not*** get any credit for this
+assignment.
+
 ## Task 0: Reading an Article
 
 Before you get started, spend a few minutes and read [this
