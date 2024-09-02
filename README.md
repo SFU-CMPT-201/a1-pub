@@ -27,12 +27,6 @@ confident that you will be an expert in vi/Neovim by the end of this semester.
 
 In this assignment, there are four simple tasks that you need to do.
 
-## Important Note
-
-You ***should not*** copy and paste the code or command examples. You have to type them yourself
-and understand the meanings. If you copy and paste, you ***will not*** get any credit for this
-assignment.
-
 ## Task 0: Reading an Article
 
 Before you get started, spend a few minutes and read [this
@@ -72,16 +66,20 @@ document first, before you start doing anything.
 
 * First, make sure you are in the correct directory for this assignment (`a1`).
 * Also make sure that you record your entire work session(s) by entering `record`.
-    * Again, when `record` is running, the prompt will display `[recording]`. Make sure you see it
-      before proceeding. `record` records everything you do in your terminal and saves it to the
-      files in a directory named `.record`.
+    * As mentioned for A0, when `record` is running, the prompt will display `[recording]`. Make
+      sure you see it before proceeding. `record` records everything you do in your terminal and
+      saves it to the files in a directory named `.record`.
+    * Also as mentioned for A0, while recording, make sure that you do not copy and paste anything.
+      If you do, you will get a 0. If you happen to do it, you will need to remove the entire
+      `.record` directory and start the tutorial all over again from the beginning to avoid getting
+      a 0.
     * Remember to enter `exit` when you want to stop.
 * Start `nvim`. You do not need to open any file.
 * Once `nvim` starts, enter `:Tutor`, which will start the built-in tutorial.
 * The tutorial will ask you to modify the content, and so after finishing the tutorial, save the
   content of the tutorial (including your modifications) to a new file named `tutor` (if you finish
   the tutorial, you will know how to save the content you're editing to a new file).
-* If the tutorial tells you to exit without saving, it is okay to do it so just do it.
+* If the tutorial tells you to exit without saving, it is okay to do it.
 * For Lesson 7.2, you won't be able to save anything, which is fine.
 * The tutorial will tell you that "the ✗ sign at the left will change to ✓." But this is not perfect
   and sometimes it may not change. This is also fine.
@@ -93,6 +91,17 @@ document first, before you start doing anything.
 * One thing to emphasize: the point of using Vim/Neovim is to ***not*** use arrow keys to move
   around. It defeats the whole purpose of using it. So after this assignment, if I catch someone who
   uses the arrow keys to move around, I'll be very unhappy and call out.
+* There is a file named `a1-checker` in the repo. You *must* execute this at least once before your
+  submission to check if your work is ready for our grader. It is okay to run it multiple times as
+  you go and you are encouraged to do it. `a1-checker` performs the following.
+    * It checks if you have correct recording files.
+    * It checks if you have used `nvim` correctly.
+    * It checks if you have saved `tutor` correctly.
+    * It flags if you have copied and pasted anything.
+    * This is not a grader but if the checker says that everything is good and if you are done
+      following the tutorial, you will get the full credit.
+    * It is entirely *your responsibility* to run `a1-checker` before submitting your work. If you
+      don't do it, you may get an unexpected grade.
 
 # Tips
 
