@@ -86,24 +86,29 @@ document first, before you start doing anything.
 * Remember, as the above linked article describes, your workflow is that "you are *always* in normal
   mode, and only enter insert mode for *short bursts* of typing text, after which you press `<Esc>`
   to go to normal mode." So develop a habit of hitting the `<Esc>` key.
-* After you're done, use `git` to push your `tutor` file to your remote GitHub Classroom repo.
-  Don't forget to push `.record` as well.
 * One thing to emphasize: the point of using Vim/Neovim is to ***not*** use arrow keys to move
   around. It defeats the whole purpose of using it. So after this assignment, if I catch someone who
   uses the arrow keys to move around, I'll be very unhappy and call out.
-* There is a file named `a1-checker` in the repo. You *must* execute this at least once before your
-  submission to check if your work is ready for grading. It is okay to run it multiple times as
-  you go and you are encouraged to do it. `a1-checker` performs the following.
-    * It checks if you have correct recording files. You will receive a 0 if this fails.
-    * It checks if you have used `nvim` correctly. You will receive a 0 if this fails.
-    * It checks if you have saved `tutor` correctly. You will receive a 0 if this fails.
-    * It flags if you have copied and pasted anything. You will receive a 0 if this fails.
-    * Note that if a check fails, it does not always tell you why. You need to debug it by yourself
-      and find out.
-    * The checker is not a grader but if it says that everything is good and if you are done
-      following the tutorial, you will get the full credit.
-    * It is entirely *your responsibility* to run `a1-checker` before submitting your work. If you
-      don't do it, you may get an unexpected grade.
+* Once everything is done, make sure you stop recording.
+
+## Submission
+
+Make sure you use git to push all the files/directories you created, including `.nvim/` and
+`.record/`, for grading.
+
+There is a file named `a1-checker` in the repo. You *must* execute this at least once before your
+submission to check if your work is ready for grading. It is okay to run it multiple times as you go
+and you are encouraged to do it. `a1-checker` performs the following.
+* It checks if you have correct recording files. You will receive a 0 if this fails.
+* It checks if you have used `nvim` correctly. You will receive a 0 if this fails.
+* It checks if you have saved `tutor` correctly. You will receive a 0 if this fails.
+* It flags if you have copied and pasted anything. You will receive a 0 if this fails.
+* Note that if a check fails, it does not always tell you why. You need to debug it by yourself and
+  find out.
+* The checker is not a grader but if it says that everything is good and if you are done following
+  the tutorial, you will get the full credit.
+* It is entirely *your responsibility* to run `a1-checker` before submitting your work. If you don't
+  do it, you may get an unexpected grade.
 
 # Tips
 
